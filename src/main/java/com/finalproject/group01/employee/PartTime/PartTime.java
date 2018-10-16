@@ -1,5 +1,6 @@
-package com.finalproject.group01.employee;
+package com.finalproject.group01.employee.PartTime;
 
+import com.finalproject.group01.employee.Employee;
 import com.finalproject.group01.vehicle.Vehicle;
 
 public abstract class PartTime extends Employee {
