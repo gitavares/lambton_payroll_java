@@ -1,4 +1,4 @@
-package com.finalproject.group01.employee;
+package com.finalproject.group01.employee.PartTime;
 
 import com.finalproject.group01.vehicle.Vehicle;
 
