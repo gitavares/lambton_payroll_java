@@ -3,11 +3,12 @@ package com.finalproject.group01.payroll;
 import com.finalproject.group01.employee.Employee;
 import com.finalproject.group01.utils.IPrintable;
 
+import java.util.HashMap;
 import java.util.Map;
 
 public class Payroll implements IPrintable {
 
-    private Map<Integer, Employee> listOfEmployeesOnPayroll;
+    private Map<Integer, Employee> listOfEmployeesOnPayroll = new HashMap<>();
     private double totalPayroll;
 
     public Payroll() {
