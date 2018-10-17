@@ -13,4 +13,33 @@ public abstract class PartTime extends Employee {
         this.rate = rate;
         this.hoursWorked = hoursWorked;
     }
+
+    public double getRate() {
+        return rate;
+    }
+
+    public void setRate(double rate) {
+        this.rate = rate;
+    }
+
+    public double getHoursWorked() {
+        return hoursWorked;
+    }
+
+    public void setHoursWorked(double hoursWorked) {
+        this.hoursWorked = hoursWorked;
+    }
+
+    @Override
+    public double calcEarnings() {
+        return this.rate * this.hoursWorked;
+    }
+
+    @Override
+    public String printMyData() {
+
+        String message = super.printMyData();
+        message += "Employee is PartTime / ";
+        return message;
+    }
 }
