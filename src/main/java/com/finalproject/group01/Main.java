@@ -42,23 +42,35 @@ public class Main {
 
         // Part Time commission based
         CommissionBasedPartTime partTimeCommissionEmployee1 = new CommissionBasedPartTime("John",35, vehicleCar2, 30, 35, 20);
-        CommissionBasedPartTime partTimeCommissionEmployee2 = new CommissionBasedPartTime("Wonder Woman",37, null, 65, 80, 15);
+        CommissionBasedPartTime partTimeCommissionEmployee2 = new CommissionBasedPartTime("Wonder Woman",37, vehicleMotorcycle2, 65, 80, 15);
 
         // Part Time fixed amount
         FixedBasedPartTime partTimeFixedAmountEmployee1 = new FixedBasedPartTime("Cindy", 40, null, 30, 15, 600);
         FixedBasedPartTime partTimeFixedAmountEmployee2 = new FixedBasedPartTime("Peter Parker", 40, vehicleCar3, 20, 40, 600);
 
-        // Payroll itself
-        Payroll payroll = new Payroll();
-        payroll.saveEmployeeOnPayroll(fullTimeEmployee1);
-        payroll.saveEmployeeOnPayroll(internEmployee1);
-        payroll.saveEmployeeOnPayroll(partTimeCommissionEmployee1);
-        payroll.saveEmployeeOnPayroll(partTimeFixedAmountEmployee1);
-        payroll.saveEmployeeOnPayroll(fullTimeEmployee2);
-        payroll.saveEmployeeOnPayroll(internEmployee2);
-        payroll.saveEmployeeOnPayroll(partTimeCommissionEmployee2);
-        payroll.saveEmployeeOnPayroll(partTimeFixedAmountEmployee2);
-        System.out.println(payroll.printMyData());
+        // Payroll itself - singleton class
+        Payroll payrollSingleton = Payroll.getInstance();
+        payrollSingleton.saveEmployeeOnPayroll(fullTimeEmployee1);
+        payrollSingleton.saveEmployeeOnPayroll(internEmployee1);
+        payrollSingleton.saveEmployeeOnPayroll(partTimeCommissionEmployee1);
+        payrollSingleton.saveEmployeeOnPayroll(partTimeFixedAmountEmployee1);
+        payrollSingleton.saveEmployeeOnPayroll(fullTimeEmployee2);
+        payrollSingleton.saveEmployeeOnPayroll(internEmployee2);
+        payrollSingleton.saveEmployeeOnPayroll(partTimeCommissionEmployee2);
+        payrollSingleton.saveEmployeeOnPayroll(partTimeFixedAmountEmployee2);
+        System.out.println(payrollSingleton.printMyData());
+
+        // Search by Name
+        System.out.println("\n\n======================================");
+        System.out.println("Search employee by name");
+        System.out.println("======================================");
+        System.out.println(payrollSingleton.getEmployeeByName("michael"));
+
+//        if(payrollSingleton != null){
+//            System.out.println(payrollSingleton);
+//        } else {
+//            System.out.println("No order found");
+//        }
 
     }
 }
