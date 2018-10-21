@@ -1,5 +1,6 @@
 package com.finalproject.group01.employee.PartTime;
 
+import com.finalproject.group01.exceptions.InvalidEarningsException;
 import com.finalproject.group01.utils.Formatting;
 import com.finalproject.group01.vehicle.Vehicle;
 
@@ -32,7 +33,17 @@ public class FixedBasedPartTime extends PartTime {
     @Override
     public double calcEarnings() {
         rateTimesHoursWorked = super.calcEarnings();
-        return rateTimesHoursWorked + this.fixedAmount;
+        double earnings = rateTimesHoursWorked + this.fixedAmount;
+
+        try {
+            if(earnings < 1000) {
+                throw new InvalidEarningsException("The employee " + this.getName() + " has Earnings less than $1,000. Adjust his/her earnings before continue.");
+            }
+        } catch (InvalidEarningsException e) {
+            System.out.println(e.getErrorMessage());
+            System.exit(0);
+        }
+        return earnings;
     }
 
     @Override
