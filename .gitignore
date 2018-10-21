@@ -1,7 +1,9 @@
 .gradle
 .idea
+.idea/workspace.xml
 gradle
 out
 gradlew
 gradlew.bat
 settings.gradle
+

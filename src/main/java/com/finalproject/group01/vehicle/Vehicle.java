@@ -20,7 +20,7 @@ public abstract class Vehicle implements IPrintable {
 
     public void setMake(String make) {
         this.make = make;
-        checkUnset();
+        checkUnset(); 
     }
 
     public String getPlate() {
