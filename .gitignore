@@ -1,7 +1,2 @@
-.gradle
-.idea
-gradle
-gradlew
-gradlew.bat
-settings.gradle
+.idea/workspace.xml
 

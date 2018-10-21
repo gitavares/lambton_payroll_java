@@ -4,9 +4,6 @@
     <list default="true" id="934f7cd5-1378-4699-a491-5215bd72b05c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PayrollPdf.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/PayrollPdf.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/finalproject/group01/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/finalproject/group01/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/finalproject/group01/vehicle/Vehicle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/finalproject/group01/vehicle/Vehicle.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/finalproject/group01/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/finalproject/group01/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -54,7 +51,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="gitignore" value="98" />
+          <entry key="gitignore" value="99" />
           <entry key="gradle" value="23" />
           <entry key="java" value="4773" />
           <entry key="md" value="156" />
@@ -64,30 +61,21 @@
         <counts>
           <entry key="Groovy" value="23" />
           <entry key="JAVA" value="4773" />
-          <entry key="PLAIN_TEXT" value="254" />
+          <entry key="PLAIN_TEXT" value="255" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/finalproject/group01/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="66" column="74" selection-start-line="66" selection-start-column="74" selection-end-line="66" selection-end-column="74" />
+            <state relative-caret-position="151">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -477,8 +465,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/finalproject/group01/payroll/PayrollSingleton.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/finalproject/group01/payroll/Payroll.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/finalproject/group01/vehicle/Vehicle.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/finalproject/group01/Main.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/java/com/finalproject/group01/Main.java" />
       </list>
     </option>
   </component>
@@ -500,6 +488,11 @@
             <path>
               <item name="PayrollSystem" type="b2602c69:ProjectViewProjectNode" />
               <item name="FinalProjectPayrollSystem" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PayrollSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FinalProjectPayrollSystem" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PayrollSystem" type="b2602c69:ProjectViewProjectNode" />
@@ -528,7 +521,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540163296959" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540163512544" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
@@ -867,20 +860,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/finalproject/group01/Main.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="66" column="74" selection-start-line="66" selection-start-column="74" selection-end-line="66" selection-end-column="74" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/finalproject/group01/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+        <state relative-caret-position="151">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
