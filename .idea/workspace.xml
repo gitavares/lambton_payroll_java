@@ -2,25 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="934f7cd5-1378-4699-a491-5215bd72b05c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/finalproject/group01/exceptions/InvalidEarningsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/finalproject/group01/exceptions/InvalidFieldException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PayrollPdf.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/PayrollPdf.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/com/finalproject/group01/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/finalproject/group01/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/com/finalproject/group01/employee/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/finalproject/group01/employee/Employee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/finalproject/group01/employee/FullTime.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/finalproject/group01/employee/FullTime.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/finalproject/group01/employee/PartTime/CommissionBasedPartTime.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/finalproject/group01/employee/PartTime/CommissionBasedPartTime.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/finalproject/group01/employee/PartTime/FixedBasedPartTime.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/finalproject/group01/employee/PartTime/FixedBasedPartTime.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/finalproject/group01/vehicle/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/finalproject/group01/vehicle/Car.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/finalproject/group01/exceptions/TestExceptionThrows.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/finalproject/group01/payroll/Payroll.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/finalproject/group01/payroll/Payroll.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/finalproject/group01/utils/GeneratePDF.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/finalproject/group01/utils/GeneratePDF.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/finalproject/group01/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/finalproject/group01/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/finalproject/group01/employee/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/finalproject/group01/employee/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/finalproject/group01/employee/FullTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/finalproject/group01/employee/FullTime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/finalproject/group01/employee/Intern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/finalproject/group01/employee/Intern.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/finalproject/group01/employee/PartTime/CommissionBasedPartTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/finalproject/group01/employee/PartTime/CommissionBasedPartTime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/finalproject/group01/employee/PartTime/FixedBasedPartTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/finalproject/group01/employee/PartTime/FixedBasedPartTime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/finalproject/group01/vehicle/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/finalproject/group01/vehicle/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/finalproject/group01/vehicle/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/finalproject/group01/vehicle/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/finalproject/group01/payroll/Payroll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/finalproject/group01/payroll/Payroll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/finalproject/group01/utils/GeneratePDF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/finalproject/group01/utils/GeneratePDF.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -53,28 +44,28 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gradle" value="2" />
-          <entry key="java" value="57" />
+          <entry key="java" value="61" />
           <entry key="md" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="2" />
-          <entry key="JAVA" value="57" />
+          <entry key="JAVA" value="61" />
           <entry key="PLAIN_TEXT" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gradle" value="23" />
-          <entry key="java" value="4385" />
+          <entry key="java" value="4758" />
           <entry key="md" value="156" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="23" />
-          <entry key="JAVA" value="4385" />
+          <entry key="JAVA" value="4758" />
           <entry key="PLAIN_TEXT" value="156" />
         </counts>
       </usages-collector>
@@ -83,10 +74,52 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/finalproject/group01/payroll/Payroll.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="321">
+              <caret line="52" column="35" lean-forward="true" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#502#503#0" expanded="true" />
+                <element signature="e#560#561#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/finalproject/group01/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+            <state relative-caret-position="314">
+              <caret line="66" column="64" selection-start-line="66" selection-start-column="64" selection-end-line="66" selection-end-column="64" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/finalproject/group01/employee/Employee.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-153">
+              <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#772#773#0" expanded="true" />
+                <element signature="e#799#800#0" expanded="true" />
+                <element signature="e#920#921#0" expanded="true" />
+                <element signature="e#946#947#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/finalproject/group01/utils/GeneratePDF.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="615">
+              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -434,8 +467,6 @@
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/com/finalproject/group01/employee/PartTime/PartTime.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/finalproject/group01/utils/GeneratePDF.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/finalproject/group01/payroll/Payroll.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/finalproject/group01/utils/Formatting.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/finalproject/group01/exceptions/TestExceptionThrows.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/finalproject/group01/employee/FullTime.java" />
@@ -447,8 +478,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/finalproject/group01/vehicle/Vehicle.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/finalproject/group01/vehicle/Car.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/finalproject/group01/employee/Intern.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/finalproject/group01/utils/GeneratePDF.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/finalproject/group01/employee/Employee.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/finalproject/group01/payroll/PayrollSingleton.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/finalproject/group01/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/finalproject/group01/payroll/Payroll.java" />
       </list>
     </option>
   </component>
@@ -605,7 +639,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540146051807" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540154541670" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
@@ -756,28 +790,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/finalproject/group01/utils/GeneratePDF.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-299">
-          <caret line="38" column="75" selection-start-line="38" selection-start-column="75" selection-end-line="38" selection-end-column="75" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4452#4453#0" expanded="true" />
-            <element signature="e#4484#4485#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/finalproject/group01/payroll/Payroll.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/finalproject/group01/utils/Formatting.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -914,18 +926,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/finalproject/group01/employee/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="664">
-          <caret line="68" column="27" selection-start-line="68" selection-start-column="27" selection-end-line="68" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1029#1030#0" expanded="true" />
-            <element signature="e#1056#1057#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/finalproject/group01/vehicle/Car.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -933,12 +933,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/finalproject/group01/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/finalproject/group01/utils/GeneratePDF.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+        <state relative-caret-position="615">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/finalproject/group01/payroll/PayrollSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="36" column="7" lean-forward="true" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/finalproject/group01/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="66" column="64" selection-start-line="66" selection-start-column="64" selection-end-line="66" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/finalproject/group01/employee/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-153">
+          <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#772#773#0" expanded="true" />
+            <element signature="e#799#800#0" expanded="true" />
+            <element signature="e#920#921#0" expanded="true" />
+            <element signature="e#946#947#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/finalproject/group01/payroll/Payroll.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="52" column="35" lean-forward="true" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#502#503#0" expanded="true" />
+            <element signature="e#560#561#0" expanded="true" />
           </folding>
         </state>
       </provider>

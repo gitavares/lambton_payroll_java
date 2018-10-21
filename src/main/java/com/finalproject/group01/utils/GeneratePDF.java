@@ -2,7 +2,6 @@ package com.finalproject.group01.utils;
 
 import com.finalproject.group01.employee.Employee;
 import com.itextpdf.text.*;
-import com.itextpdf.text.pdf.CMYKColor;
 import com.itextpdf.text.pdf.PdfPCell;
 import com.itextpdf.text.pdf.PdfPTable;
 import com.itextpdf.text.pdf.PdfWriter;
@@ -87,14 +86,12 @@ public class GeneratePDF {
             c2 = new PdfPCell(new Phrase(String.valueOf(employee.calcBirthYear()), defaultFont));
             t.addCell(c2);
 
+            c1 = new PdfPCell(new Phrase("Vehicle", tableHeaderFont));
+            t.addCell(c1);
             if(employee.getVehicle() != null) {
-                c1 = new PdfPCell(new Phrase("Vehicle", tableHeaderFont));
-                t.addCell(c1);
                 c2 = new PdfPCell(new Phrase(String.valueOf(employee.getVehicle().printMyData()), defaultFont));
                 t.addCell(c2);
             } else {
-                c1 = new PdfPCell(new Phrase("Vehicle", tableHeaderFont));
-                t.addCell(c1);
                 c2 = new PdfPCell(new Phrase("Employee has no Vehicle registered", defaultFont));
                 t.addCell(c2);
             }
