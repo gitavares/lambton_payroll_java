@@ -66,11 +66,5 @@ public class Main {
         System.out.println("======================================");
         System.out.println(payrollSingleton.getEmployeeByName("michael"));
 
-//        if(payrollSingleton != null){
-//            System.out.println(payrollSingleton);
-//        } else {
-//            System.out.println("No order found");
-//        }
-
     }
 }
