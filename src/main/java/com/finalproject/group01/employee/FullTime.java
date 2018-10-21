@@ -1,5 +1,6 @@
 package com.finalproject.group01.employee;
 
+import com.finalproject.group01.exceptions.InvalidEarningsException;
 import com.finalproject.group01.utils.Formatting;
 import com.finalproject.group01.vehicle.Vehicle;
 
@@ -38,7 +39,16 @@ public class FullTime extends Employee {
 
     @Override
     public double calcEarnings() {
-        return this.salary + this.bonus;
+        double earnings = this.salary + this.bonus;
+        try {
+            if(earnings < 1000) {
+                throw new InvalidEarningsException("The employee " + this.getName() + " has Earnings less than $1,000. Adjust his/her earnings before continue.");
+            }
+        } catch (InvalidEarningsException e) {
+            System.out.println(e.getErrorMessage());
+            System.exit(0);
+        }
+        return earnings;
     }
 
     @Override

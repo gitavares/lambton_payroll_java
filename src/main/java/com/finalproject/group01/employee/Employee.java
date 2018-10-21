@@ -1,5 +1,6 @@
 package com.finalproject.group01.employee;
 
+import com.finalproject.group01.exceptions.InvalidFieldException;
 import com.finalproject.group01.utils.IPrintable;
 import com.finalproject.group01.vehicle.Vehicle;
 
@@ -16,6 +17,7 @@ public abstract class Employee implements IPrintable {
         this.name = name;
         this.age = age;
         this.vehicle = vehicle;
+        checkUnset();
     }
 
     // gets and setters
@@ -25,6 +27,7 @@ public abstract class Employee implements IPrintable {
 
     public void setName(String name) {
         this.name = name;
+        checkUnset();
     }
 
     public int getAge() {
@@ -33,6 +36,7 @@ public abstract class Employee implements IPrintable {
 
     public void setAge(int age) {
         this.age = age;
+        checkUnset();
     }
 
     public Vehicle getVehicle() {
@@ -49,12 +53,21 @@ public abstract class Employee implements IPrintable {
     }
 
     public double calcEarnings() {
-        try {
-
-        } catch (Exception e) {
-            System.out.println(e);
-        }
         return 1000;
+    }
+
+    public void checkUnset(){
+        try {
+            if (this.getName() == null) {
+                throw new InvalidFieldException("The employee must have a name. Adjust this before continue.");
+            }
+            if (this.getAge() < 18) {
+                throw new InvalidFieldException("The employee must be 18 or older. Adjust this before continue.");
+            }
+        } catch (InvalidFieldException e) {
+            System.out.println(e.getErrorMessage());
+            System.exit(0);
+        }
     }
 
     @Override

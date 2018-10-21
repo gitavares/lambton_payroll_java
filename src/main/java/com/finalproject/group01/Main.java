@@ -16,16 +16,16 @@ public class Main {
         // tasks:
         // 1. pdf - OK
         // 2. formatting currency - OK
-        // 3. create try catch
+        // 3. create try catch - OK
         // 4. create a singleton class
         // 5. bar code OR qrcode
 
 
         // Vehicle - Car
-        Car vehicleCar1 = new Car("BMW", "FGH8997", 4, true);
+        Car vehicleCar1 = new Car("BMW", "FHH6786", 4, true);
         Car vehicleCar2 = new Car("Mercedez", "YYT8978", 2,false);
         Car vehicleCar3 = new Car("Jeep", "GGT6578", 4, true);
-        vehicleCar1.setMake("Mercedez");
+        vehicleCar1.setMake("Ferrari");
 
         // Vehicle - Motorcycle
         Motorcycle vehicleMotorcycle1 = new Motorcycle("Harley-Davidson", "TG55RF", 600, true);
@@ -45,8 +45,8 @@ public class Main {
         CommissionBasedPartTime partTimeCommissionEmployee2 = new CommissionBasedPartTime("Wonder Woman",37, null, 65, 80, 15);
 
         // Part Time fixed amount
-        FixedBasedPartTime partTimeFixedAmountEmployee1 = new FixedBasedPartTime("Cindy", 40, null, 30, 15, 40);
-        FixedBasedPartTime partTimeFixedAmountEmployee2 = new FixedBasedPartTime("Peter Parker", 40, vehicleCar3, 20, 40, 40);
+        FixedBasedPartTime partTimeFixedAmountEmployee1 = new FixedBasedPartTime("Cindy", 40, null, 30, 15, 600);
+        FixedBasedPartTime partTimeFixedAmountEmployee2 = new FixedBasedPartTime("Peter Parker", 40, vehicleCar3, 20, 40, 600);
 
         // Payroll itself
         Payroll payroll = new Payroll();
