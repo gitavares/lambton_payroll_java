@@ -49,6 +49,11 @@ public abstract class Employee implements IPrintable {
     }
 
     public double calcEarnings() {
+        try {
+
+        } catch (Exception e) {
+            System.out.println(e);
+        }
         return 1000;
     }
 

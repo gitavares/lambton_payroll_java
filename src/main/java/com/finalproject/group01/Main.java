@@ -8,9 +8,17 @@ import com.finalproject.group01.payroll.Payroll;
 import com.finalproject.group01.vehicle.Car;
 import com.finalproject.group01.vehicle.Motorcycle;
 
+
 public class Main {
 
     public static void main(String[] args) {
+
+        // tasks:
+        // 1. pdf - OK
+        // 2. formatting currency - OK
+        // 3. create try catch
+        // 4. create a singleton class
+        // 5. bar code OR qrcode
 
 
         // Vehicle - Car
@@ -40,17 +48,6 @@ public class Main {
         FixedBasedPartTime partTimeFixedAmountEmployee1 = new FixedBasedPartTime("Cindy", 40, null, 30, 15, 40);
         FixedBasedPartTime partTimeFixedAmountEmployee2 = new FixedBasedPartTime("Peter Parker", 40, vehicleCar3, 20, 40, 40);
 
-        // temp printing
-//        System.out.println(fullTimeEmployee1.printMyData());
-//        System.out.println(fullTimeEmployee2.printMyData());
-//        System.out.println(internEmployee1.printMyData());
-//        System.out.println(internEmployee2.printMyData());
-//        System.out.println(partTimeCommissionEmployee1.printMyData());
-//        System.out.println(partTimeCommissionEmployee2.printMyData());
-//        System.out.println(partTimeFixedAmountEmployee1.printMyData());
-//        System.out.println(partTimeFixedAmountEmployee2.printMyData());
-
-
         // Payroll itself
         Payroll payroll = new Payroll();
         payroll.saveEmployeeOnPayroll(fullTimeEmployee1);
@@ -62,7 +59,6 @@ public class Main {
         payroll.saveEmployeeOnPayroll(partTimeCommissionEmployee2);
         payroll.saveEmployeeOnPayroll(partTimeFixedAmountEmployee2);
         System.out.println(payroll.printMyData());
-
 
     }
 }
