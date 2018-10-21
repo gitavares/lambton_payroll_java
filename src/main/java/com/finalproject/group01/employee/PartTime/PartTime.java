@@ -32,6 +32,11 @@ public abstract class PartTime extends Employee {
 
     @Override
     public double calcEarnings() {
+        try {
+
+        } catch (Exception e) {
+            System.out.println(e);
+        }
         return this.rate * this.hoursWorked;
     }
 

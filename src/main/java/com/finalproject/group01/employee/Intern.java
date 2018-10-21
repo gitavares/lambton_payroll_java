@@ -1,5 +1,6 @@
 package com.finalproject.group01.employee;
 
+import com.finalproject.group01.utils.Formatting;
 import com.finalproject.group01.vehicle.Vehicle;
 
 public class Intern extends Employee {
@@ -26,10 +27,12 @@ public class Intern extends Employee {
 
     @Override
     public String printMyData() {
+        Formatting format = new Formatting();
+
         String message = super.printMyData();
         message += "Employee is Intern\n";
         message += "- School Name: " + this.schoolName + "\n";
-        message += "- Earnings: " + calcEarnings() + "\n";
+        message += "- Earnings: " + format.getCurrencyFormatter(calcEarnings()) + "\n";
         message += "************************************\n";
         return message;
     }

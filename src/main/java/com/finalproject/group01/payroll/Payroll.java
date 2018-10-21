@@ -1,9 +1,13 @@
 package com.finalproject.group01.payroll;
 
 import com.finalproject.group01.employee.Employee;
+import com.finalproject.group01.utils.Formatting;
+import com.finalproject.group01.utils.GeneratePDF;
 import com.finalproject.group01.utils.IPrintable;
 
+import java.text.NumberFormat;
 import java.util.HashMap;
+import java.util.Locale;
 import java.util.Map;
 
 public class Payroll implements IPrintable {
@@ -35,15 +39,21 @@ public class Payroll implements IPrintable {
     @Override
     public String printMyData() {
         String payrollData = "";
+        GeneratePDF generatePDF = new GeneratePDF();
 
         for(Employee employee: listOfEmployeesOnPayroll.values()){
             System.out.println(employee.printMyData());
             payrollData += employee.printMyData();
+            generatePDF.generateEmployeeDetailsPDF(employee);
         }
 
+        Formatting format = new Formatting();
+
         String message = "Total of employees: " + listOfEmployeesOnPayroll.size() + "\n";
-        message += "TOTAL PAYROLL: " + calcTotalPayroll() + " Canadian Dollars";
+        message += "TOTAL PAYROLL: " + format.getCurrencyFormatter(calcTotalPayroll()) + " Canadian Dollars";
         message += "";
+        generatePDF.generateTotalPayrollDetailsPDF(message);
+        generatePDF.closeDocument();
 
 
 
