@@ -9,8 +9,11 @@ public class FixedBasedPartTime extends PartTime {
     private double fixedAmount;
     private double rateTimesHoursWorked;
 
-    public FixedBasedPartTime(String name, int age, Vehicle vehicle, double rate, double hoursWorked, double fixedAmount) {
-        super(name, age, vehicle, rate, hoursWorked);
+    public FixedBasedPartTime() {
+    }
+
+    public FixedBasedPartTime(int id, String name, int age, Vehicle vehicle, double rate, double hoursWorked, double fixedAmount) {
+        super(id, name, age, vehicle, rate, hoursWorked);
         this.fixedAmount = fixedAmount;
     }
 

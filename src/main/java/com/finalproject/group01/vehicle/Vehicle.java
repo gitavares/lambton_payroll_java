@@ -35,10 +35,10 @@ public abstract class Vehicle implements IPrintable {
     public void checkUnset(){
         try {
             if (this.getMake() == null) {
-                throw new InvalidFieldException("The vehicle must have a Make. Adjust this before continue.");
+                throw new InvalidFieldException("The vehicle must have a Make. Please, adjust this before continue.");
             }
             if (this.getPlate() == null) {
-                throw new InvalidFieldException("The vehicle must have a Plate. Adjust this before continue.");
+                throw new InvalidFieldException("The vehicle must have a Plate. Please, adjust this before continue.");
             }
         } catch (InvalidFieldException e) {
             System.out.println(e.getErrorMessage());

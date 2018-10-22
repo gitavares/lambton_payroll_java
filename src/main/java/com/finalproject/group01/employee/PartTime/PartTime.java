@@ -8,8 +8,11 @@ public abstract class PartTime extends Employee {
     private double rate;
     private double hoursWorked;
 
-    public PartTime(String name, int age, Vehicle vehicle, double rate, double hoursWorked) {
-        super(name, age, vehicle);
+    public PartTime() {
+    }
+
+    public PartTime(int id, String name, int age, Vehicle vehicle, double rate, double hoursWorked) {
+        super(id, name, age, vehicle);
         this.rate = rate;
         this.hoursWorked = hoursWorked;
     }
