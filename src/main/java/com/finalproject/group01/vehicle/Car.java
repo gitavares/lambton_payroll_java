@@ -1,5 +1,7 @@
 package com.finalproject.group01.vehicle;
 
+import com.finalproject.group01.exceptions.InvalidFieldException;
+
 public class Car extends Vehicle {
 
     private int doorsQuantity;

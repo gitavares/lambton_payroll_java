@@ -1,6 +1,8 @@
 package com.finalproject.group01.payroll;
 
 import com.finalproject.group01.employee.Employee;
+import com.finalproject.group01.utils.Formatting;
+import com.finalproject.group01.utils.GeneratePDF;
 import com.finalproject.group01.utils.IPrintable;
 
 import java.util.HashMap;
@@ -8,15 +10,19 @@ import java.util.Map;
 
 public class Payroll implements IPrintable {
 
-    private Map<Integer, Employee> listOfEmployeesOnPayroll = new HashMap<>();
+    private static Payroll payrollSingleton;
+    private Map<Integer, Employee> listOfEmployeesOnPayroll;
     private double totalPayroll;
 
     public Payroll() {
+        listOfEmployeesOnPayroll = new HashMap<>();
     }
 
-    public Payroll(Map<Integer, Employee> listOfEmployeesOnPayroll, double totalPayroll) {
-        this.listOfEmployeesOnPayroll = listOfEmployeesOnPayroll;
-        this.totalPayroll = totalPayroll;
+    public static Payroll getInstance(){
+        if(payrollSingleton == null) {
+            payrollSingleton = new Payroll();
+        }
+        return payrollSingleton;
     }
 
     public void saveEmployeeOnPayroll(Employee employee) {
@@ -32,46 +38,33 @@ public class Payroll implements IPrintable {
         return totalPayroll;
     }
 
+    public String getEmployeeByName(String name) {
+        for(Employee employee: listOfEmployeesOnPayroll.values()) {
+            if(employee.getName().toLowerCase().contains(name.toLowerCase())) {
+                return employee.printMyData();
+            }
+        }
+        return "Employee not found";
+    }
+
     @Override
     public String printMyData() {
         String payrollData = "";
+        GeneratePDF generatePDF = new GeneratePDF();
 
         for(Employee employee: listOfEmployeesOnPayroll.values()){
             System.out.println(employee.printMyData());
             payrollData += employee.printMyData();
+            generatePDF.generateEmployeeDetailsPDF(employee);
         }
 
+        Formatting format = new Formatting();
+
         String message = "Total of employees: " + listOfEmployeesOnPayroll.size() + "\n";
-        message += "TOTAL PAYROLL: " + calcTotalPayroll() + " Canadian Dollars";
+        message += "TOTAL PAYROLL: " + format.getCurrencyFormatter(calcTotalPayroll()) + " Canadian Dollars";
         message += "";
-
-
-
-
-
-//        for employee in listOfEmployeesOnPayroll {
-//            print(employee.value.printMyData())
-//            payrollData += employee.value.printMyData()
-//        }
-
-//        String message = "Total of employees: \(listOfEmployeesOnPayroll.count)\n"
-//        message += "TOTAL PAYROLL: \(calcTotalPayroll().currency) Canadian Dollars"
-//        message += ""
-
-        // --------------------------
-        // saving results on TXT file
-//        let fileName = "payrollTotal"
-//        let DocumentDirURL = try! FileManager.default.url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil, create: true)
-//        let fileURL = DocumentDirURL.appendingPathComponent(fileName).appendingPathExtension("txt")
-//        payrollData += message
-//        do {
-//            // Write to the file
-//            try payrollData.write(to: fileURL, atomically: true, encoding: String.Encoding.utf8)
-//        } catch let error as NSError {
-//            print("Failed writing to URL: \(fileURL), Error: " + error.localizedDescription)
-//        }
-
-//        message += "\n\nThe Payroll was saved on: \(DocumentDirURL)\(fileName).txt"
+        generatePDF.generateTotalPayrollDetailsPDF(message);
+        generatePDF.closeDocument();
 
         return message;
     }

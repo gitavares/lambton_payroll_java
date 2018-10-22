@@ -8,16 +8,24 @@ import com.finalproject.group01.payroll.Payroll;
 import com.finalproject.group01.vehicle.Car;
 import com.finalproject.group01.vehicle.Motorcycle;
 
+
 public class Main {
 
     public static void main(String[] args) {
 
+        // tasks:
+        // 1. pdf - OK
+        // 2. formatting currency - OK
+        // 3. create try catch - OK
+        // 4. create a singleton class
+        // 5. bar code OR qrcode
+
 
         // Vehicle - Car
-        Car vehicleCar1 = new Car("BMW", "FGH8997", 4, true);
+        Car vehicleCar1 = new Car("BMW", "FHH6786", 4, true);
         Car vehicleCar2 = new Car("Mercedez", "YYT8978", 2,false);
         Car vehicleCar3 = new Car("Jeep", "GGT6578", 4, true);
-        vehicleCar1.setMake("Mercedez");
+        vehicleCar1.setMake("Ferrari");
 
         // Vehicle - Motorcycle
         Motorcycle vehicleMotorcycle1 = new Motorcycle("Harley-Davidson", "TG55RF", 600, true);
@@ -34,35 +42,35 @@ public class Main {
 
         // Part Time commission based
         CommissionBasedPartTime partTimeCommissionEmployee1 = new CommissionBasedPartTime("John",35, vehicleCar2, 30, 35, 20);
-        CommissionBasedPartTime partTimeCommissionEmployee2 = new CommissionBasedPartTime("Wonder Woman",37, null, 65, 80, 15);
+        CommissionBasedPartTime partTimeCommissionEmployee2 = new CommissionBasedPartTime("Wonder Woman",37, vehicleMotorcycle2, 65, 80, 15);
 
         // Part Time fixed amount
-        FixedBasedPartTime partTimeFixedAmountEmployee1 = new FixedBasedPartTime("Cindy", 40, null, 30, 15, 40);
-        FixedBasedPartTime partTimeFixedAmountEmployee2 = new FixedBasedPartTime("Peter Parker", 40, vehicleCar3, 20, 40, 40);
+        FixedBasedPartTime partTimeFixedAmountEmployee1 = new FixedBasedPartTime("Cindy", 40, null, 30, 15, 600);
+        FixedBasedPartTime partTimeFixedAmountEmployee2 = new FixedBasedPartTime("Peter Parker", 40, vehicleCar3, 20, 40, 600);
 
-        // temp printing
-//        System.out.println(fullTimeEmployee1.printMyData());
-//        System.out.println(fullTimeEmployee2.printMyData());
-//        System.out.println(internEmployee1.printMyData());
-//        System.out.println(internEmployee2.printMyData());
-//        System.out.println(partTimeCommissionEmployee1.printMyData());
-//        System.out.println(partTimeCommissionEmployee2.printMyData());
-//        System.out.println(partTimeFixedAmountEmployee1.printMyData());
-//        System.out.println(partTimeFixedAmountEmployee2.printMyData());
+        // Payroll itself - singleton class
+        Payroll payrollSingleton = Payroll.getInstance();
+        payrollSingleton.saveEmployeeOnPayroll(fullTimeEmployee1);
+        payrollSingleton.saveEmployeeOnPayroll(internEmployee1);
+        payrollSingleton.saveEmployeeOnPayroll(partTimeCommissionEmployee1);
+        payrollSingleton.saveEmployeeOnPayroll(partTimeFixedAmountEmployee1);
+        payrollSingleton.saveEmployeeOnPayroll(fullTimeEmployee2);
+        payrollSingleton.saveEmployeeOnPayroll(internEmployee2);
+        payrollSingleton.saveEmployeeOnPayroll(partTimeCommissionEmployee2);
+        payrollSingleton.saveEmployeeOnPayroll(partTimeFixedAmountEmployee2);
+        System.out.println(payrollSingleton.printMyData());
 
+        // Search by Name
+        System.out.println("\n\n======================================");
+        System.out.println("Search employee by name");
+        System.out.println("======================================");
+        System.out.println(payrollSingleton.getEmployeeByName("michael"));
 
-        // Payroll itself
-        Payroll payroll = new Payroll();
-        payroll.saveEmployeeOnPayroll(fullTimeEmployee1);
-        payroll.saveEmployeeOnPayroll(internEmployee1);
-        payroll.saveEmployeeOnPayroll(partTimeCommissionEmployee1);
-        payroll.saveEmployeeOnPayroll(partTimeFixedAmountEmployee1);
-        payroll.saveEmployeeOnPayroll(fullTimeEmployee2);
-        payroll.saveEmployeeOnPayroll(internEmployee2);
-        payroll.saveEmployeeOnPayroll(partTimeCommissionEmployee2);
-        payroll.saveEmployeeOnPayroll(partTimeFixedAmountEmployee2);
-        System.out.println(payroll.printMyData());
-
+//        if(payrollSingleton != null){
+//            System.out.println(payrollSingleton);
+//        } else {
+//            System.out.println("No order found");
+//        }
 
     }
 }
