@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/FinalProjectPayrollSystem.iml" filepath="$PROJECT_DIR$/.idea/FinalProjectPayrollSystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PayrollSystem.iml" filepath="$PROJECT_DIR$/.idea/modules/PayrollSystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PayrollSystem_main.iml" filepath="$PROJECT_DIR$/.idea/modules/PayrollSystem_main.iml" group="PayrollSystem" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PayrollSystem_test.iml" filepath="$PROJECT_DIR$/.idea/modules/PayrollSystem_test.iml" group="PayrollSystem" />
     </modules>
   </component>
 </project>

@@ -1,0 +1,128 @@
+{
+    "employees":
+    [
+        {
+            "id": 1,
+            "name": "Michael Jackson",
+            "age": 53,
+            "vehicle": {
+                "type": "Car",
+                "make": "BMW",
+                "plate": "FGH8997",
+                "doorsQuantity": 4,
+                "hasSunroof": true
+            },
+            "employment": {
+                "type": "FullTime",
+                "salary": 5000,
+                "bonus": 300
+            }
+        },
+        {
+            "id": 2,
+            "name": "Sandra de Sa",
+            "age": 60,
+            "vehicle": {
+                "type": "Motorcycle",
+                "make": "Harley-Davidson",
+                "plate": "TG55RF",
+                "powerCC": 500,
+                "hasLuggageRack": true
+            },
+            "employment": {
+                "type": "Intern",
+                "schoolName": "Lambton College",
+                "salary": 1000
+            }
+        },
+        {
+            "id": 3,
+            "name": "John",
+            "age": 25,
+            "vehicle": {
+                "type": "Car",
+                "make": "Mercedez",
+                "plate": "YYT8978",
+                "doorsQuantity": 2
+            },
+            "employment": {
+                "type": "CommissionBasedPartTime",
+                "rate": 30,
+                "hoursWorked": 35,
+                "commisionPerc": 20
+            }
+        },
+        {
+            "id": 4,
+            "name": "Cindy",
+            "age": 34,
+            "employment": {
+                "type": "FixedAmountPartTime",
+                "rate": 30,
+                "hoursWorked": 15,
+                "fixedAmount": 800
+            }
+        },
+        {
+            "id": 5,
+            "name": "Brad Pitt",
+            "age": 60,
+            "vehicle": {
+                "type": "Motorcycle",
+                "make": "Harley-Davidson",
+                "plate": "BPT8711",
+                "powerCC": 600
+            },
+            "employment": {
+                "type": "FullTime",
+                "salary": 4000,
+                "bonus": 700
+            }
+        },
+        {
+            "id": 6,
+            "name": "Lisa Simpson",
+            "age": 18,
+            "employment": {
+                "type": "Intern",
+                "schoolName": "Lambton College Sarnia",
+                "salary": 1000
+            }
+        },
+        {
+            "id": 7,
+            "name": "Wonder Woman",
+            "age": 36,
+            "vehicle": {
+                "type": "Motorcycle",
+                "make": "BMW",
+                "plate": "YYT8765",
+                "powerCC": 250
+            },
+            "employment": {
+                "type": "CommissionBasedPartTime",
+                "rate": 65,
+                "hoursWorked": 80,
+                "commisionPerc": 15
+            }
+        },
+        {
+            "id": 8,
+            "name": "Peter Parker",
+            "age": 40,
+            "vehicle": {
+                "type": "Car",
+                "make": "Jeep",
+                "plate": "GGT6578",
+                "doorsQuantity": 4,
+                "hasSunroof": true
+            },
+            "employment": {
+                "type": "FixedAmountPartTime",
+                "rate": 20,
+                "hoursWorked": 40,
+                "fixedAmount": 600
+            }
+        }
+    ]
+}
