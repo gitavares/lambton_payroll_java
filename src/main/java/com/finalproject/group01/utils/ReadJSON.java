@@ -19,7 +19,7 @@ public class ReadJSON {
     public void readJson() throws IOException
     {
         try {
-            String fileName = "Employees.json";
+            String fileName = "./Employees.json";
 //        ClassLoader classLoader = getClass().getClassLoader();
 
 
