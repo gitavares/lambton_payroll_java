@@ -5,8 +5,13 @@ import com.finalproject.group01.employee.Intern;
 import com.finalproject.group01.employee.PartTime.CommissionBasedPartTime;
 import com.finalproject.group01.employee.PartTime.FixedBasedPartTime;
 import com.finalproject.group01.payroll.Payroll;
+import com.finalproject.group01.utils.GenerateQRCode;
 import com.finalproject.group01.vehicle.Car;
 import com.finalproject.group01.vehicle.Motorcycle;
+import com.google.zxing.WriterException;
+
+import java.io.File;
+import java.io.IOException;
 
 
 public class Main {
@@ -66,11 +71,17 @@ public class Main {
         System.out.println("======================================");
         System.out.println(payrollSingleton.getEmployeeByName("michael"));
 
-//        if(payrollSingleton != null){
-//            System.out.println(payrollSingleton);
-//        } else {
-//            System.out.println("No order found");
-//        }
+       //Generating a QRCode with the informtaions of an Employee
+        String emp = "sandra";
+        System.out.println("Generating the QRCode for " + emp);
+        try {
+            GenerateQRCode.generateQRCodeImage(payrollSingleton.getEmployeeByName(emp), 350, 350, "./QRCodeEmployee.png");
+        } catch (WriterException e) {
+            System.out.println("Could not generate QR Code, WriterException :: " + e.getMessage());
+        } catch (IOException e) {
+            System.out.println("Could not generate QR Code, IOException :: " + e.getMessage());
+        }
 
+        System.out.println("...done!");
     }
 }

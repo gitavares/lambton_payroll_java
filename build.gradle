@@ -17,4 +17,7 @@ dependencies {
     compile group: 'com.itextpdf', name: 'itextpdf', version: '5.5.13'
     // https://mvnrepository.com/artifact/com.google.zxing/core
     compile group: 'com.google.zxing', name: 'core', version: '3.3.3'
+    // https://mvnrepository.com/artifact/com.google.zxing/javase
+    compile group: 'com.google.zxing', name: 'javase', version: '3.3.3'
+
 }
