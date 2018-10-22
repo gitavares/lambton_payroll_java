@@ -8,12 +8,12 @@ import com.finalproject.group01.payroll.Payroll;
 import com.finalproject.group01.vehicle.Car;
 import com.finalproject.group01.vehicle.Motorcycle;
 
+import java.io.IOException;
+
 
 public class Main {
 
-    public static void main(String[] args) {
-
-        // testing git
+    public static void main(String[] args) throws IOException {
 
         // Vehicle - Car
         Car vehicleCar1 = new Car("BMW", "FHH6786", 4, true);
@@ -27,20 +27,20 @@ public class Main {
         Motorcycle vehicleMotorcycle3 = new Motorcycle("Harley-Davidson", "BPT8711", 600, false);
 
         // FT
-        FullTime fullTimeEmployee1 = new FullTime("Michael Jackson", 53, vehicleCar1, 5000, 300);
-        FullTime fullTimeEmployee2 = new FullTime("Brad Pitt", 30, vehicleMotorcycle3, 4000, 700);
+        FullTime fullTimeEmployee1 = new FullTime(1, "Michael Jackson", 53, vehicleCar1, 5000, 300);
+        FullTime fullTimeEmployee2 = new FullTime(2, "Brad Pitt", 30, vehicleMotorcycle3, 4000, 700);
 
         // Intern
-        Intern internEmployee1 = new Intern("Sandra de Sa", 60, vehicleMotorcycle1, "Lambton College");
-        Intern internEmployee2 = new Intern("Lisa Simpson", 60, null, "Lambton College Sarnia");
+        Intern internEmployee1 = new Intern(3, "Sandra de Sa", 60, vehicleMotorcycle1, "Lambton College");
+        Intern internEmployee2 = new Intern(4, "Lisa Simpson", 60, null, "Lambton College Sarnia");
 
         // Part Time commission based
-        CommissionBasedPartTime partTimeCommissionEmployee1 = new CommissionBasedPartTime("John",35, vehicleCar2, 30, 35, 20);
-        CommissionBasedPartTime partTimeCommissionEmployee2 = new CommissionBasedPartTime("Wonder Woman",37, vehicleMotorcycle2, 65, 80, 15);
+        CommissionBasedPartTime partTimeCommissionEmployee1 = new CommissionBasedPartTime(5, "John",35, vehicleCar2, 30, 35, 20);
+        CommissionBasedPartTime partTimeCommissionEmployee2 = new CommissionBasedPartTime(6, "Wonder Woman",37, vehicleMotorcycle2, 65, 80, 15);
 
         // Part Time fixed amount
-        FixedBasedPartTime partTimeFixedAmountEmployee1 = new FixedBasedPartTime("Cindy", 40, null, 30, 15, 600);
-        FixedBasedPartTime partTimeFixedAmountEmployee2 = new FixedBasedPartTime("Peter Parker", 40, vehicleCar3, 20, 40, 600);
+        FixedBasedPartTime partTimeFixedAmountEmployee1 = new FixedBasedPartTime(7, "Cindy", 40, null, 30, 15, 600);
+        FixedBasedPartTime partTimeFixedAmountEmployee2 = new FixedBasedPartTime(8, "Peter Parker", 40, vehicleCar3, 20, 40, 600);
 
         // Payroll itself - singleton class
         Payroll payrollSingleton = Payroll.getInstance();
@@ -59,5 +59,9 @@ public class Main {
         System.out.println("Search employee by name");
         System.out.println("======================================");
         System.out.println(payrollSingleton.getEmployeeByName("michael"));
+
+        // JSON
+//        ReadJSON jsonFile = new ReadJSON();
+//        jsonFile.readJson();
     }
 }

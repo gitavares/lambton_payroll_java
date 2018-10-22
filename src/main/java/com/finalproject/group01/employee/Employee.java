@@ -8,12 +8,19 @@ import java.time.Year;
 
 public abstract class Employee implements IPrintable {
 
+    private int id;
     private String name;
     private int age;
     private Vehicle vehicle;
 
     // constructors
-    public Employee(String name, int age, Vehicle vehicle) {
+
+
+    public Employee() {
+    }
+
+    public Employee(int id, String name, int age, Vehicle vehicle) {
+        this.id = id;
         this.name = name;
         this.age = age;
         this.vehicle = vehicle;
@@ -21,6 +28,14 @@ public abstract class Employee implements IPrintable {
     }
 
     // gets and setters
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
     public String getName() {
         return name;
     }
