@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="934f7cd5-1378-4699-a491-5215bd72b05c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/classes/com/finalproject/group01/exceptions/InvalidEarningsException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/com/finalproject/group01/exceptions/InvalidFieldException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/com/finalproject/group01/utils/Formatting.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/com/finalproject/group01/utils/GeneratePDF.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PayrollPdf.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/PayrollPdf.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/finalproject/group01/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/finalproject/group01/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/finalproject/group01/employee/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/finalproject/group01/employee/Employee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/finalproject/group01/employee/FullTime.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/finalproject/group01/employee/FullTime.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/finalproject/group01/employee/Intern.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/finalproject/group01/employee/Intern.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/finalproject/group01/employee/PartTime/CommissionBasedPartTime.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/finalproject/group01/employee/PartTime/CommissionBasedPartTime.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/finalproject/group01/employee/PartTime/FixedBasedPartTime.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/finalproject/group01/employee/PartTime/FixedBasedPartTime.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/finalproject/group01/employee/PartTime/PartTime.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/finalproject/group01/employee/PartTime/PartTime.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/finalproject/group01/payroll/Payroll.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/finalproject/group01/payroll/Payroll.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/finalproject/group01/vehicle/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/finalproject/group01/vehicle/Car.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/finalproject/group01/vehicle/Vehicle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/finalproject/group01/vehicle/Vehicle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/finalproject/group01/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/finalproject/group01/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/finalproject/group01/utils/GenerateQRCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/finalproject/group01/utils/GenerateQRCode.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -84,6 +64,7 @@
     <session id="174956906">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.50" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -143,8 +124,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/finalproject/group01/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="74" column="30" selection-start-line="74" selection-start-column="30" selection-end-line="74" selection-end-column="30" />
+            <state relative-caret-position="415">
+              <caret line="73" column="65" lean-forward="true" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -635,7 +616,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540167323895" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540167624844" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
@@ -717,7 +698,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2992126" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2992126" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -975,8 +956,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/finalproject/group01/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="74" column="30" selection-start-line="74" selection-start-column="30" selection-end-line="74" selection-end-column="30" />
+        <state relative-caret-position="415">
+          <caret line="73" column="65" lean-forward="true" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
