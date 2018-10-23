@@ -3,7 +3,7 @@ Group: #01
 - Giselle
 - Gurjeet
 
-#What we did:
+# What we did:
 1 - Abstract classes:
     a)  Vehicle, with the subclasses Car and Motorcycle.
     b) Abstract class Employee, with the children PartTime, Intern and FullTime.
