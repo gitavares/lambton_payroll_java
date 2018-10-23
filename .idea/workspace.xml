@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="934f7cd5-1378-4699-a491-5215bd72b05c" name="Default Changelist" comment="Merge branch 'giselle' of github.com:gitavares/lambton_payroll_java into giselle&#10;&#10;# Conflicts:&#10;#&#9;.gitignore">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Employees.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Employees.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PayrollPdf.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/PayrollPdf.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QRCodeEmployee.png" beforeDir="false" afterPath="$PROJECT_DIR$/QRCodeEmployee.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/finalproject/group01/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/finalproject/group01/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/finalproject/group01/employee/FullTime.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/finalproject/group01/employee/FullTime.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/finalproject/group01/payroll/Payroll.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/finalproject/group01/payroll/Payroll.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/finalproject/group01/utils/ReadJSON.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/finalproject/group01/utils/ReadJSON.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/finalproject/group01/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/finalproject/group01/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/finalproject/group01/employee/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/finalproject/group01/employee/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/finalproject/group01/employee/FullTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/finalproject/group01/employee/FullTime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/finalproject/group01/employee/Intern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/finalproject/group01/employee/Intern.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/finalproject/group01/employee/PartTime/CommissionBasedPartTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/finalproject/group01/employee/PartTime/CommissionBasedPartTime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/finalproject/group01/employee/PartTime/FixedBasedPartTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/finalproject/group01/employee/PartTime/FixedBasedPartTime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/finalproject/group01/payroll/Payroll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/finalproject/group01/payroll/Payroll.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/finalproject/group01/utils/GenerateQRCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/finalproject/group01/utils/GenerateQRCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/finalproject/group01/utils/ReadJSON.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/finalproject/group01/utils/ReadJSON.java" afterDir="false" />
-    </list>
+    <list default="true" id="934f7cd5-1378-4699-a491-5215bd72b05c" name="Default Changelist" comment="Merge branch 'giselle' of github.com:gitavares/lambton_payroll_java into giselle&#10;&#10;# Conflicts:&#10;#&#9;.gitignore" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -687,7 +669,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540254133549" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540254298533" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
@@ -754,6 +736,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28836834" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
