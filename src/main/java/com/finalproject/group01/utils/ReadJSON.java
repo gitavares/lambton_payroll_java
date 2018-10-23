@@ -47,18 +47,17 @@ public class ReadJSON {
             Employee myEmployee = null;
             Vehicle myVehicle = null;
 
-
             if (employee.has("vehicle") && employee.getJSONObject("vehicle") != null) {
                 JSONObject vehicle = new JSONObject(employee.getJSONObject("vehicle").toString());
                 String vehicleType = vehicle.getString("type");
                 String make = vehicle.getString("make");
                 String plate = vehicle.getString("plate");
+
                 if (vehicleType.equals("Car")) {
                     int doorsQuantity = vehicle.getInt("doorsQuantity");
                     boolean hasSunroof = vehicle.getBoolean("hasSunroof");
 
                     myVehicle = new Car(make, plate, doorsQuantity, hasSunroof);
-
 
                 } else if (vehicleType.equals("Motorcycle")) {
                     int powerCC = vehicle.getInt("powerCC");
@@ -67,47 +66,44 @@ public class ReadJSON {
                     myVehicle = new Motorcycle(make, plate, powerCC, hasLuggageRack);
 
                 }
+            }
 
+            if (employmentType.equals("FullTime")) {
+                Double salary = employment.getDouble("salary");
 
-                if (employmentType.equals("FullTime")) {
-                    Double salary = employment.getDouble("salary");
-
-                    Double bonus = 0.0;
-                    if (employment.has("bonus")) {
-                        bonus = employment.getDouble("bonus");
-                    }
-
-                    myEmployee = new FullTime(id, name, age, myVehicle, salary, bonus);
-
-
-                } else if (employmentType.equals("Intern")) {
-                    String schoolName = employment.getString("schoolName");
-
-                    myEmployee = new Intern(id, name, age, myVehicle, schoolName);
-
-                } else if (employmentType.equals("CommissionBasedPartTime")) {
-                    Double rate = employment.getDouble("rate");
-                    Double hoursWorked = employment.getDouble("hoursWorked");
-                    Double commisionPerc = employment.getDouble("commisionPerc");
-
-                    myEmployee = new CommissionBasedPartTime(id, name, age, myVehicle, rate, hoursWorked, commisionPerc);
-
-                } else if (employmentType.equals("FixedAmountPartTime")) {
-                    Double rate = employment.getDouble("rate");
-                    Double hoursWorked = employment.getDouble("hoursWorked");
-                    Double fixedAmount = employment.getDouble("fixedAmount");
-
-                    myEmployee = new FixedBasedPartTime(id, name, age, myVehicle, rate, hoursWorked, fixedAmount);
+                Double bonus = 0.0;
+                if (employment.has("bonus")) {
+                    bonus = employment.getDouble("bonus");
                 }
 
-                payrollSingleton.saveEmployeeOnPayroll(myEmployee);
+                myEmployee = new FullTime(id, name, age, myVehicle, salary, bonus);
+
+
+            } else if (employmentType.equals("Intern")) {
+                String schoolName = employment.getString("schoolName");
+
+                myEmployee = new Intern(id, name, age, myVehicle, schoolName);
+
+            } else if (employmentType.equals("CommissionBasedPartTime")) {
+                Double rate = employment.getDouble("rate");
+                Double hoursWorked = employment.getDouble("hoursWorked");
+                Double commisionPerc = employment.getDouble("commisionPerc");
+
+                myEmployee = new CommissionBasedPartTime(id, name, age, myVehicle, rate, hoursWorked, commisionPerc);
+
+            } else if (employmentType.equals("FixedAmountPartTime")) {
+                Double rate = employment.getDouble("rate");
+                Double hoursWorked = employment.getDouble("hoursWorked");
+                Double fixedAmount = employment.getDouble("fixedAmount");
+
+                myEmployee = new FixedBasedPartTime(id, name, age, myVehicle, rate, hoursWorked, fixedAmount);
             }
+
+            payrollSingleton.saveEmployeeOnPayroll(myEmployee);
 
         }
 
-        System.out.println("==== START FROM JSON =======");
         System.out.println(payrollSingleton.printMyData());
-        System.out.println("==== END FROM JSON =========");
 
     }
 }

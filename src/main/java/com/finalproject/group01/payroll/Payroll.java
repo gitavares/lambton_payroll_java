@@ -63,7 +63,7 @@ public class Payroll implements IPrintable {
                 payrollData += employee.printMyData();
                 generatePDF.generateEmployeeDetailsPDF(employee);
                 try {
-                    GenerateQRCode.generateQRCodeImage(employee.getName(), 350, 350, "./" +  employee.getId() +".png");
+                    GenerateQRCode.generateQRCodeImage(employee.printMyData(), 350, 350, "./" +  employee.getId() +".png");
                 } catch (WriterException e) {
                     e.printStackTrace();
                 } catch (IOException e) {
