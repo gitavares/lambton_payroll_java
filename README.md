@@ -3,6 +3,22 @@ Group: #01
 - Giselle
 - Gurjeet
 
+#What we did:
+1 - Abstract classes:
+    a)  Vehicle, with the subclasses Car and Motorcycle.
+    b) Abstract class Employee, with the children PartTime, Intern and FullTime.
+    c) Abstract classe PartTime with the children commissionBasedPartTime and FixedBased PartTime
+2 - Every one of these classes implements the IPrintable interface , directly or by inheritance
+3 - Two objects of each one of the classes to test the output
+4 - A package named Utils containing the  classes:
+    a) Formatting with the methods to format the numbers (currency, percentage) according with the Local (Locale object).
+    b) Generate PDF, to generate the output file of type .PDF;
+    c) Generate QRCode, to generate an .png image file containing the QRCode with the informations of an Employee;
+    d) The IPrintable interface;
+    e) ReadJSON to get the input data from a JSON File.
+5 - A class named Payroll, inside the package payroll, that implements the IPrintable interface, stores the employees data in one dictionary, calculates the total of the payroll and exports the output to a PDF file.
+6 - A package named exceptions with the classes InvalidEarninsgException and InvalidFieldException for Error Handling purposes.
+
 References:
 
 - iTextPDF: http://www.vogella.com/tutorials/JavaPDF/article.html
