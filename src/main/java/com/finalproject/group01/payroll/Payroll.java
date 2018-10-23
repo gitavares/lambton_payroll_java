@@ -3,8 +3,11 @@ package com.finalproject.group01.payroll;
 import com.finalproject.group01.employee.Employee;
 import com.finalproject.group01.utils.Formatting;
 import com.finalproject.group01.utils.GeneratePDF;
+import com.finalproject.group01.utils.GenerateQRCode;
 import com.finalproject.group01.utils.IPrintable;
+import com.google.zxing.WriterException;
 
+import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -33,7 +36,9 @@ public class Payroll implements IPrintable {
     public Double calcTotalPayroll() {
 
         for(Employee employee: listOfEmployeesOnPayroll.values()){
-            this.totalPayroll += employee.calcEarnings();
+            if(employee !=null) {
+                this.totalPayroll += employee.calcEarnings();
+            }
         }
         return totalPayroll;
     }
@@ -53,9 +58,18 @@ public class Payroll implements IPrintable {
         GeneratePDF generatePDF = new GeneratePDF();
 
         for(Employee employee: listOfEmployeesOnPayroll.values()){
-            System.out.println(employee.printMyData());
-            payrollData += employee.printMyData();
-            generatePDF.generateEmployeeDetailsPDF(employee);
+            if(employee !=null) {
+                System.out.println(employee.printMyData());
+                payrollData += employee.printMyData();
+                generatePDF.generateEmployeeDetailsPDF(employee);
+                try {
+                    GenerateQRCode.generateQRCodeImage(employee.printMyData(), 350, 350, "./" +  employee.getId() +".png");
+                } catch (WriterException e) {
+                    e.printStackTrace();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
         }
 
         Formatting format = new Formatting();

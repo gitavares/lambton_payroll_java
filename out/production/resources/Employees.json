@@ -1,6 +1,6 @@
-{
-    "employees":
-    [
+[
+
+
         {
             "id": 1,
             "name": "Michael Jackson",
@@ -43,7 +43,8 @@
                 "type": "Car",
                 "make": "Mercedez",
                 "plate": "YYT8978",
-                "doorsQuantity": 2
+                "doorsQuantity": 2,
+                "hasSunroof": false
             },
             "employment": {
                 "type": "CommissionBasedPartTime",
@@ -71,7 +72,8 @@
                 "type": "Motorcycle",
                 "make": "Harley-Davidson",
                 "plate": "BPT8711",
-                "powerCC": 600
+                "powerCC": 600,
+                "hasLuggageRack": false
             },
             "employment": {
                 "type": "FullTime",
@@ -97,7 +99,8 @@
                 "type": "Motorcycle",
                 "make": "BMW",
                 "plate": "YYT8765",
-                "powerCC": 250
+                "powerCC": 250,
+                "hasLuggageRack": false
             },
             "employment": {
                 "type": "CommissionBasedPartTime",
@@ -125,4 +128,4 @@
             }
         }
     ]
-}
+
