@@ -44,7 +44,6 @@ public class FixedBasedPartTime extends PartTime {
             }
         } catch (InvalidEarningsException e) {
             System.out.println(e.getErrorMessage());
-            System.exit(0);
         }
         return earnings;
     }

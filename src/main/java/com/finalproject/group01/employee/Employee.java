@@ -14,8 +14,6 @@ public abstract class Employee implements IPrintable {
     private Vehicle vehicle;
 
     // constructors
-
-
     public Employee() {
     }
 

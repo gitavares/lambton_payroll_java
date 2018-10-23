@@ -2,33 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="934f7cd5-1378-4699-a491-5215bd72b05c" name="Default Changelist" comment="Merge branch 'giselle' of github.com:gitavares/lambton_payroll_java into giselle&#10;&#10;# Conflicts:&#10;#&#9;.gitignore">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_beust_jcommander_1_72.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_jai_imageio_jai_imageio_core_1_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_zxing_core_3_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_zxing_javase_3_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_itextpdf_itextpdf_5_5_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_io_commons_io_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_json_json_20160807.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/PayrollSystem.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/PayrollSystem_main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/PayrollSystem_test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QRCodeEmployee.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/com/finalproject/group01/utils/GenerateQRCode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/finalproject/group01/utils/GenerateQRCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Employees.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Employees.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PayrollPdf.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/PayrollPdf.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QRCodeEmployee.png" beforeDir="false" afterPath="$PROJECT_DIR$/QRCodeEmployee.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/com/finalproject/group01/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/finalproject/group01/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/finalproject/group01/employee/FullTime.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/finalproject/group01/employee/FullTime.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/finalproject/group01/payroll/Payroll.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/finalproject/group01/payroll/Payroll.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/com/finalproject/group01/utils/ReadJSON.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/finalproject/group01/utils/ReadJSON.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/finalproject/group01/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/finalproject/group01/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/finalproject/group01/employee/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/finalproject/group01/employee/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/finalproject/group01/employee/FullTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/finalproject/group01/employee/FullTime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/finalproject/group01/employee/Intern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/finalproject/group01/employee/Intern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/finalproject/group01/employee/PartTime/CommissionBasedPartTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/finalproject/group01/employee/PartTime/CommissionBasedPartTime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/finalproject/group01/employee/PartTime/FixedBasedPartTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/finalproject/group01/employee/PartTime/FixedBasedPartTime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/finalproject/group01/payroll/Payroll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/finalproject/group01/payroll/Payroll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/finalproject/group01/utils/GenerateQRCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/finalproject/group01/utils/GenerateQRCode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/finalproject/group01/utils/ReadJSON.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/finalproject/group01/utils/ReadJSON.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -67,19 +56,19 @@
         <counts>
           <entry key="gitignore" value="3" />
           <entry key="gradle" value="4" />
-          <entry key="java" value="67" />
-          <entry key="json" value="1" />
+          <entry key="java" value="102" />
+          <entry key="json" value="2" />
           <entry key="md" value="5" />
-          <entry key="png" value="1" />
+          <entry key="png" value="7" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="4" />
-          <entry key="Image" value="1" />
-          <entry key="JAVA" value="67" />
-          <entry key="JSON" value="1" />
+          <entry key="Image" value="7" />
+          <entry key="JAVA" value="102" />
+          <entry key="JSON" value="2" />
           <entry key="PLAIN_TEXT" value="8" />
           <entry key="XML" value="1" />
         </counts>
@@ -88,14 +77,16 @@
         <counts>
           <entry key="gitignore" value="99" />
           <entry key="gradle" value="26" />
-          <entry key="java" value="6457" />
+          <entry key="java" value="6933" />
+          <entry key="json" value="22" />
           <entry key="md" value="182" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="26" />
-          <entry key="JAVA" value="6457" />
+          <entry key="JAVA" value="6933" />
+          <entry key="JSON" value="22" />
           <entry key="PLAIN_TEXT" value="281" />
         </counts>
       </usages-collector>
@@ -103,47 +94,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/finalproject/group01/employee/FullTime.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="50" column="52" selection-start-line="50" selection-start-column="52" selection-end-line="50" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/finalproject/group01/utils/GeneratePDF.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-496">
+              <caret line="69" column="42" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/finalproject/group01/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="79" column="12" lean-forward="true" selection-start-line="79" selection-start-column="12" selection-end-line="79" selection-end-column="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/finalproject/group01/employee/PartTime/FixedBasedPartTime.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/finalproject/group01/employee/PartTime/PartTime.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/finalproject/group01/utils/ReadJSON.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-66">
-              <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+            <state relative-caret-position="1245">
+              <caret line="83" column="75" selection-start-line="83" selection-start-column="75" selection-end-line="83" selection-end-column="75" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -152,10 +131,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Employees.json">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/finalproject/group01/utils/GenerateQRCode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="16" />
+            <state relative-caret-position="29">
+              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/finalproject/group01/utils/IPrintable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -163,8 +154,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/finalproject/group01/employee/Intern.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="540">
+              <caret line="40" column="52" selection-start-line="40" selection-start-column="52" selection-end-line="40" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -173,13 +164,40 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/finalproject/group01/employee/PartTime/CommissionBasedPartTime.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/finalproject/group01/exceptions/InvalidEarningsException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+            <state relative-caret-position="180">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/finalproject/group01/exceptions/InvalidFieldException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/finalproject/group01/payroll/Payroll.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="30" column="53" lean-forward="true" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/finalproject/group01/utils/Formatting.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -192,6 +210,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>CommissionBasedPartTime</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -374,7 +397,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="6159162252000" />
+        <entry key="$PROJECT_DIR$" value="6159163405000" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/build.gradle" value="1448751221" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="2007532874" />
@@ -501,20 +524,22 @@
         <option value="$PROJECT_DIR$/src/main/java/com/finalproject/group01/vehicle/Car.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/finalproject/group01/utils/GeneratePDF.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/finalproject/group01/payroll/PayrollSingleton.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/finalproject/group01/payroll/Payroll.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/finalproject/group01/vehicle/Vehicle.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/main/java/com/finalproject/group01/employee/FullTime.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/finalproject/group01/employee/Employee.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/finalproject/group01/employee/Intern.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/finalproject/group01/employee/PartTime/PartTime.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/finalproject/group01/employee/PartTime/CommissionBasedPartTime.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/finalproject/group01/employee/PartTime/FixedBasedPartTime.java" />
         <option value="$PROJECT_DIR$/Employees.json" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/java/com/finalproject/group01/utils/ReadJSON.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/Employees.json" />
+        <option value="$PROJECT_DIR$/src/main/java/com/finalproject/group01/payroll/Payroll.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/finalproject/group01/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/finalproject/group01/employee/PartTime/CommissionBasedPartTime.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/finalproject/group01/employee/PartTime/FixedBasedPartTime.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/finalproject/group01/employee/Employee.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/finalproject/group01/employee/FullTime.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/finalproject/group01/employee/Intern.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/finalproject/group01/utils/GenerateQRCode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/finalproject/group01/utils/ReadJSON.java" />
       </list>
     </option>
   </component>
@@ -590,6 +615,69 @@
             </path>
             <path>
               <item name="PayrollSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FinalProjectPayrollSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="finalproject" type="462c0819:PsiDirectoryNode" />
+              <item name="group01" type="462c0819:PsiDirectoryNode" />
+              <item name="employee" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PayrollSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FinalProjectPayrollSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="finalproject" type="462c0819:PsiDirectoryNode" />
+              <item name="group01" type="462c0819:PsiDirectoryNode" />
+              <item name="employee" type="462c0819:PsiDirectoryNode" />
+              <item name="PartTime" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PayrollSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FinalProjectPayrollSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="finalproject" type="462c0819:PsiDirectoryNode" />
+              <item name="group01" type="462c0819:PsiDirectoryNode" />
+              <item name="exceptions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PayrollSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FinalProjectPayrollSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="finalproject" type="462c0819:PsiDirectoryNode" />
+              <item name="group01" type="462c0819:PsiDirectoryNode" />
+              <item name="payroll" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PayrollSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FinalProjectPayrollSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="finalproject" type="462c0819:PsiDirectoryNode" />
+              <item name="group01" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PayrollSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FinalProjectPayrollSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PayrollSystem" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -599,10 +687,13 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540226231393" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540254133549" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
@@ -663,9 +754,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28836834" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28836834" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -673,7 +763,7 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -733,13 +823,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'giselle' of github.com:gitavares/lambton_payroll_java into giselle&#10;&#10;# Conflicts:&#10;#&#9;.gitignore" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/finalproject/group01/utils/IPrintable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/finalproject/group01/vehicle/Motorcycle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -747,28 +830,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/finalproject/group01/utils/Formatting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/finalproject/group01/exceptions/TestExceptionThrows.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/finalproject/group01/exceptions/InvalidEarningsException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/finalproject/group01/exceptions/InvalidFieldException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/finalproject/group01/vehicle/Car.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -777,18 +839,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/finalproject/group01/payroll/PayrollSingleton.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/finalproject/group01/payroll/Payroll.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="52" column="35" lean-forward="true" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#502#503#0" expanded="true" />
-            <element signature="e#560#561#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -797,15 +847,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/finalproject/group01/utils/GeneratePDF.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state>
+          <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -826,30 +870,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/finalproject/group01/employee/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#661#662#0" expanded="true" />
-            <element signature="e#686#687#0" expanded="true" />
-            <element signature="e#719#720#0" expanded="true" />
-            <element signature="e#747#748#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/finalproject/group01/employee/FullTime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -857,13 +877,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/4.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/QRCodeEmployee.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Employees.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="124" column="21" selection-start-line="124" selection-start-column="17" selection-end-line="124" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/finalproject/group01/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="63" selection-start-line="9" selection-start-column="63" selection-end-line="9" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/finalproject/group01/employee/PartTime/CommissionBasedPartTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="45" column="52" selection-start-line="45" selection-start-column="52" selection-end-line="45" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/finalproject/group01/employee/PartTime/FixedBasedPartTime.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+        <state relative-caret-position="45">
+          <caret line="45" column="52" selection-start-line="45" selection-start-column="52" selection-end-line="45" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -880,47 +939,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Employees.json">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/finalproject/group01/employee/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="16" />
+        <state relative-caret-position="-690">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/finalproject/group01/employee/FullTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="50" column="52" selection-start-line="50" selection-start-column="52" selection-end-line="50" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/finalproject/group01/employee/Intern.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="540">
+          <caret line="40" column="52" selection-start-line="40" selection-start-column="52" selection-end-line="40" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/finalproject/group01/employee/PartTime/CommissionBasedPartTime.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/finalproject/group01/exceptions/InvalidEarningsException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+        <state relative-caret-position="180">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/finalproject/group01/exceptions/InvalidFieldException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/finalproject/group01/payroll/Payroll.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="30" column="53" lean-forward="true" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/finalproject/group01/utils/Formatting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/finalproject/group01/utils/GeneratePDF.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-496">
+          <caret line="69" column="42" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/finalproject/group01/utils/GenerateQRCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/finalproject/group01/utils/IPrintable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/finalproject/group01/utils/ReadJSON.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-66">
-          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/finalproject/group01/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="79" column="12" lean-forward="true" selection-start-line="79" selection-start-column="12" selection-end-line="79" selection-end-column="12" />
+        <state relative-caret-position="1245">
+          <caret line="83" column="75" selection-start-line="83" selection-start-column="75" selection-end-line="83" selection-end-column="75" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

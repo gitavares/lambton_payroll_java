@@ -39,7 +39,6 @@ public class Intern extends Employee {
             }
         } catch (InvalidFieldException e) {
             System.out.println(e.getErrorMessage());
-            System.exit(0);
         }
     }
 
