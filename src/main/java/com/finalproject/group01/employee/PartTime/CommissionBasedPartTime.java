@@ -44,7 +44,6 @@ public class CommissionBasedPartTime extends PartTime {
             }
         } catch (InvalidEarningsException e) {
             System.out.println(e.getErrorMessage());
-            System.exit(0);
         }
         return earnings;
     }

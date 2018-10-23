@@ -49,7 +49,6 @@ public class FullTime extends Employee {
             }
         } catch (InvalidEarningsException e) {
             System.out.println(e.getErrorMessage());
-            System.exit(0);
         }
         return earnings;
     }
