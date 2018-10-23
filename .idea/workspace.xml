@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="934f7cd5-1378-4699-a491-5215bd72b05c" name="Default Changelist" comment="Merge branch 'giselle' of github.com:gitavares/lambton_payroll_java into giselle&#10;&#10;# Conflicts:&#10;#&#9;.gitignore">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PayrollPdf.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/PayrollPdf.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/finalproject/group01/payroll/Payroll.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/finalproject/group01/payroll/Payroll.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/finalproject/group01/payroll/Payroll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/finalproject/group01/payroll/Payroll.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/finalproject/group01/utils/ReadJSON.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/finalproject/group01/utils/ReadJSON.java" afterDir="false" />
-    </list>
+    <list default="true" id="934f7cd5-1378-4699-a491-5215bd72b05c" name="Default Changelist" comment="Merge branch 'giselle' of github.com:gitavares/lambton_payroll_java into giselle&#10;&#10;# Conflicts:&#10;#&#9;.gitignore" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -53,27 +39,27 @@
           <entry key="gitignore" value="3" />
           <entry key="gradle" value="4" />
           <entry key="java" value="102" />
-          <entry key="json" value="3" />
+          <entry key="json" value="2" />
           <entry key="md" value="5" />
-          <entry key="png" value="15" />
-          <entry key="xml" value="2" />
+          <entry key="png" value="7" />
+          <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="4" />
-          <entry key="Image" value="15" />
+          <entry key="Image" value="7" />
           <entry key="JAVA" value="102" />
-          <entry key="JSON" value="3" />
+          <entry key="JSON" value="2" />
           <entry key="PLAIN_TEXT" value="8" />
-          <entry key="XML" value="2" />
+          <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="99" />
           <entry key="gradle" value="26" />
-          <entry key="java" value="6938" />
+          <entry key="java" value="6933" />
           <entry key="json" value="22" />
           <entry key="md" value="182" />
         </counts>
@@ -81,7 +67,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="26" />
-          <entry key="JAVA" value="6938" />
+          <entry key="JAVA" value="6933" />
           <entry key="JSON" value="22" />
           <entry key="PLAIN_TEXT" value="281" />
         </counts>
@@ -90,14 +76,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/finalproject/group01/utils/ReadJSON.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
+            <state relative-caret-position="240">
               <caret line="101" column="12" selection-start-line="101" selection-start-column="12" selection-end-line="101" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/4.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="938" column="61" lean-forward="true" selection-start-line="938" selection-start-column="61" selection-end-line="938" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -443,6 +443,7 @@
         <option value="$PROJECT_DIR$/Employees.json" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/resources/Employees.json" />
+        <option value="$PROJECT_DIR$/src/main/java/com/finalproject/group01/payroll/Payroll.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/finalproject/group01/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/finalproject/group01/employee/PartTime/CommissionBasedPartTime.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/finalproject/group01/employee/PartTime/FixedBasedPartTime.java" />
@@ -450,7 +451,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/finalproject/group01/employee/FullTime.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/finalproject/group01/employee/Intern.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/finalproject/group01/utils/GenerateQRCode.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/finalproject/group01/payroll/Payroll.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/finalproject/group01/utils/ReadJSON.java" />
       </list>
     </option>
@@ -604,15 +604,15 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540302460490" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540254298533" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -757,6 +757,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/finalproject/group01/payroll/PayrollSingleton.java" />
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="938" column="61" lean-forward="true" selection-start-line="938" selection-start-column="61" selection-end-line="938" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -768,9 +775,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -788,8 +792,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/4.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/QRCodeEmployee.png">
       <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Employees.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="124" column="21" selection-start-line="124" selection-start-column="17" selection-end-line="124" selection-end-column="21" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/finalproject/group01/Main.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -875,6 +898,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/finalproject/group01/payroll/Payroll.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/finalproject/group01/utils/Formatting.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -909,57 +942,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="39" lean-forward="true" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/5.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/6.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/7.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/8.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Employees.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="70" column="24" lean-forward="true" selection-start-line="70" selection-start-column="24" selection-end-line="70" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/finalproject/group01/payroll/Payroll.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/finalproject/group01/utils/ReadJSON.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
+        <state relative-caret-position="240">
           <caret line="101" column="12" selection-start-line="101" selection-start-column="12" selection-end-line="101" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
