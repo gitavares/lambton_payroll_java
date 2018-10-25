@@ -17,7 +17,7 @@ public class Payroll implements IPrintable {
     private Map<Integer, Employee> listOfEmployeesOnPayroll;
     private double totalPayroll;
 
-    public Payroll() {
+    private Payroll() {
         listOfEmployeesOnPayroll = new HashMap<>();
     }
 
@@ -58,7 +58,7 @@ public class Payroll implements IPrintable {
         GeneratePDF generatePDF = new GeneratePDF();
 
         for(Employee employee: listOfEmployeesOnPayroll.values()){
-            if(employee !=null) {
+            if(employee != null) {
                 System.out.println(employee.printMyData());
                 payrollData += employee.printMyData();
                 generatePDF.generateEmployeeDetailsPDF(employee);
